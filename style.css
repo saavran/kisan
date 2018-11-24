@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.bg-header{
+    background: #28373e;
+}
+.navbar{
+    padding: 0;
+}
+.nav-link{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    padding-right: 25px!important;
+    padding-left: 25px!important;
+    border-bottom: 2px solid #28373e;
+}
+.nav-link:hover{
+    background: #151d20;
+    border-bottom: 2px solid #93c8e2;
+}
+.header{
+    background: #8198a0
+}
+.header .container{
+    padding: 50px 15px;
+}
+.header-line{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px;
+    position: relative;
+    letter-spacing: 2px;
+}
+.left-container h6{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.left-container p{
+    margin-top: 25px;
+}
+.quote-section{
+    width: 463px;
+    font-size: 20px;
+    padding: 10px;
+    color: #999;
+    clear: both;
+}
+.top-space{
+    float: right;
+    height: 100px;
+}
+hr{
+    border: 2px solid #1dd5c9;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+.sub-headline{
+    margin-top: -40px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    background: #fff;
+    padding: 0 25px;
+}
+.left-container img {
+    width: 196px;
+    border-radius: 10px;
+    float: left;
+    clear: both;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+.sub-head-title{
+    padding-top: 20px;
+    color: #1dd5c9;
+}
+.article-box{
+    border: 1px solid #1dd5c9;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+.article-box h2{
+    color: #1dd5c9;
+    padding: 15px 15px 0px 15px;
+}
+.cover-image{
+    height: 200px;
+    border-radius: 3px;
+}
+.submenu{
+    border: 1px solid #1dd5c9;
+    border-radius: 4px;
+}
+.profile img{
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 85px;
+    position: absolute;
+    margin-top: -46px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.profile ul{
+    background: #eee;
+    padding: 58px 20px 30px 20px;
+    font-size: 14px;
+}
+.profile li{
+    padding: 5px 0px;
+}
+.cover{
+    height: 120px;
+    background-size: 100%!important;
+    border-radius: 4px 4px 0px 0px; 
+}
+.submenu-option li{
+    color: #1dd5c9;
+}
+.submenu-option li:hover{
+    background-color: #1dd5c9;
+    cursor: pointer;
+    color: white;
+}
+.message{
+    background: #ddd;
+}
+.message label{
+    font-size: 11px;
+    color: #888;
+}
+.message button{
+    width: 100%;
+    background: #1dd5c9;
+    border-color: #1dd5c9;
+}
+.location{
+    background-color: #eee;
+}
+.location .map{
+    height: 150px;
+}
+.location p{
+    font-size: 13px;
+}
+footer{
+    margin-top: 50px;
+}
+@media only screen and (max-width: 1000px){
+    .sub-headline{
+        font-size: 20px;
+        margin-top: -33px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .quote-section{
+        width: 100%;
+    }
+}
+/* #8198a0(light blue)
+#1dd5c9
+#e3aa59(orange) */
